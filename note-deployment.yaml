@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: note-container
-        image: <your-registry>/note-app:latest
+        image: https://github.com/Haru1706/container/tree/main/note-app:latest
         ports:
         - containerPort: 5000
